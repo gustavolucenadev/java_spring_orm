@@ -29,6 +29,8 @@ public class Order {
     @OneToMany(mappedBy = "id.order")
     Set<OrderItem> items = new HashSet<>();
 
+    public Order() {
+    }
 
     public Order(Long id, Instant moment, OrderStatus status, User client, Payment payment) {
         this.id = id;
