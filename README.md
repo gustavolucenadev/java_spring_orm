@@ -43,7 +43,7 @@ OrderStatus (Enum): Define os possíveis status de um pedido: WAITING_PAYMENT, P
 
 Clone o repositório
 
-git clone https://github.com/seu-usuario/seu-repositorio.git
+git clone https://github.com/gustavolucenadev/java_spring_orm
 
 Acesse o diretório do projeto
 
